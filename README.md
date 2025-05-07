@@ -27,11 +27,20 @@ Useful during:
 - Thick client security testing
 - Quick and easy PoC demonstrations
 
+## 🧠 Tips
+
+- In some cases, you can reuse a malicious DLL by simply renaming it.  
+  For example, if you have a malicious version of `netapi32.dll`, you might be able to reuse it as `profapi.dll` **by renaming the file**.
+
+> ⚠️ This only works if the application calls **functions with matching exports**.  
+
 ## ⚠️ Note on Antivirus Detection
 
 > These precompiled DLLs may be flagged by antivirus solutions.  
 > This is expected, as the MessageBox payload was generated using **msfvenom**, which is commonly detected.  
 > **They are intended strictly for PoC purposes in controlled environments.**
+
+Future versions will aim to include less detectable binaries while preserving the demonstration purpose.
 
 ## 🛑 Disclaimer
 
