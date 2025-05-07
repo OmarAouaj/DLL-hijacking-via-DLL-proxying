@@ -14,6 +14,12 @@ This repository provides **pre-compiled DLLs** that:
 
 These DLLs are ready to drop into your testing directory — no need to compile or export anything yourself.
 
+## 📥 Download
+
+You can download the latest precompiled DLLs from the [Releases](../../releases) section of this repository.
+
+> 🔄 Releases will be updated regularly with new DLLs as they become available.
+
 ## 📌 Use Case
 
 Useful during:
