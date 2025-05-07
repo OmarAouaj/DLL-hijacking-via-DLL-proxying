@@ -21,7 +21,13 @@ Useful during:
 - Thick client security testing
 - Quick and easy PoC demonstrations
 
-## ⚠️ Disclaimer
+## ⚠️ Note on Antivirus Detection
+
+> These precompiled DLLs may be flagged by antivirus solutions.  
+> This is expected, as the MessageBox payload was generated using **msfvenom**, which is commonly detected.  
+> **They are intended strictly for PoC purposes in controlled environments.**
+
+## 🛑 Disclaimer
 
 These DLLs are for **educational** and **penetration testing purposes** only. Use them responsibly and only with proper authorization.
 
